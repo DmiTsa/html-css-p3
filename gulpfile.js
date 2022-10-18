@@ -29,7 +29,7 @@ function sassToCss() {
 }
 
 function watchChanges() {
-  watch('src/sass/*.+(scss|sass)', sassToCss);
+  watch('src/sass/**/*.+(scss|sass)', sassToCss);
   watch('src/*.html').on('change', browserSync.reload);
 }
 

@@ -1,8 +1,13 @@
 @import 'variables';
-@import 'blocks/header';
+
 @import 'blocks/container';
-@import 'blocks/first-screen';
 @import 'blocks/button';
+
+@import 'blocks/header';
+@import 'blocks/first-screen';
+@import 'blocks/benefit';
+
+@import 'media';
 
 body {
   font-family: 'MuseoSans';

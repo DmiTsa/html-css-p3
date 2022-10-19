@@ -1,8 +1,7 @@
-$(document).ready(function () {
-  $('.slider__content').slick({
-    dots: true,
-    speed: 1000,
-    adaptiveHeight: true,
-  });
+var slider = tns({
+  container: '.slider__content',
+  items: 1,
+  slideBy: 'page',
+  // prewButton:
+  // nextButton
 });
-// gfgf

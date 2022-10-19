@@ -18,8 +18,11 @@ body {
 }
 
 .slider {
+  display: flex;
+  justify-content: center;
   padding: 80px 95px;
   &__content {
+    display: block;
     img {
       margin: 0 auto;
     }

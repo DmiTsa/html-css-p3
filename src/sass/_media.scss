@@ -1,3 +1,7 @@
+// .slider {
+//   padding: 80px 95px;
+// }
+
 @media (max-width: 1200px) {
   .benefit {
     .benefit__content {
@@ -13,6 +17,14 @@
 
   .benefit__item {
     max-width: 225px;
+  }
+
+  .consultation {
+    padding: 100px 50px;
+  }
+
+  .title_big {
+    font-size: 31px;
   }
 }
 

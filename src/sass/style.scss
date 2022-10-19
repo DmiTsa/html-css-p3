@@ -3,14 +3,25 @@
 @import 'blocks/container';
 @import 'blocks/button';
 @import 'blocks/title';
+@import 'blocks/user-form';
 
-@import 'blocks/header';
-@import 'blocks/first-screen';
-@import 'blocks/benefit';
+@import 'sections/header';
+@import 'sections/first-screen';
+@import 'sections/benefit';
+@import 'sections/consultation';
 
 @import 'media';
 
 body {
   font-family: 'MuseoSans';
   font-style: normal;
+}
+
+.slider {
+  padding: 80px 95px;
+  &__content {
+    img {
+      margin: 0 auto;
+    }
+  }
 }

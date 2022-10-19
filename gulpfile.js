@@ -31,6 +31,7 @@ function sassToCss() {
 function watchChanges() {
   watch('src/sass/**/*.+(scss|sass)', sassToCss);
   watch('src/*.html').on('change', browserSync.reload);
+  watch('src/js/*.js').on('change', browserSync.reload);
 }
 
 function defaultTask() {

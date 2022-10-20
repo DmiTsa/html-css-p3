@@ -1,7 +1,6 @@
 var slider = tns({
-  container: '.slider__content',
+  container: '.slider__inner',
   items: 1,
   slideBy: 'page',
-  // prewButton:
-  // nextButton
+  // autoplay: true,
 });
